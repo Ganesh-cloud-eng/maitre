@@ -1,0 +1,84 @@
+/* Home.css */
+.home {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .home-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .menu-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .card h3 {
+    margin: 12px 0 4px;
+  }
+  
+  .price {
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+  
+  .qty-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+  }
+  
+  .btn {
+    padding: 4px 12px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .btn.plus {
+    background-color: skyblue;
+    color: white;
+  }
+  
+  .btn.minus {
+    background-color: rgb(163, 32, 54);
+    color: white;
+  }
+  
